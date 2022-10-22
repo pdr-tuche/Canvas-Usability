@@ -90,11 +90,12 @@
             <div class="area-formulario">
                 <h2>Faça parte da nossa Newsletter</h2>
                 <div class="formulario">
-                    <form action="" method="post">
-                        <div>
+                    <form action="back.php" method="POST">
+                            <label for="nome">E-mail:</label>
+                            <input type="text" id="nome" />
                             <label for="email">E-mail:</label>
                             <input type="email" id="email" />
-                        </div>
+                            <button type="submit">Enviar</button>          
                     </form>
                 </div>
             </div>
