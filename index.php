@@ -8,7 +8,7 @@
 <body>
     <header>
         <img src="Assets/imagens/logo.png" alt = "logo">
-        <h1>O Canvas de usabilidade</h1>
+        <h1><?php echo 'O Canvas de usabilidade'; ?></h1>
         <p>Planeje a Avaliação de Usabilidade da solução em uma única tela!</p>
         <div class="social">
             <a href="https:/www.instagram.com/ocanvasdeusabilidade/" target="_blank">
