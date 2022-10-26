@@ -90,13 +90,15 @@
                 <h2>Faça parte da nossa Newsletter</h2>
                 <div class="formulario">
                     <form action="back.php" method="POST">
-                            <label for="nome">E-mail:</label>
-                            <input type="text" id="nome" />
+                            <label for="nome">Nome:</label>
+                            <input type="text" name="nome" />
                             <label for="email">E-mail:</label>
-                            <input type="email" id="email" />
+                            <input type="email" name="email" />
                             <button type="submit">Enviar</button>          
                     </form>
                 </div>
+                <button onClick="{location.href='exibeDados.php'}">Mostrar Dados</button>
+                <button onClick="{location.href='excluirDados.php';}">cancelar assinatura da newsletter</button></td> <!-- passar o nome que ele quer excluir, para pesquisar por nome e achar o id ou excluir pelo nome msm. -->
             </div>
 
 
@@ -105,5 +107,7 @@
                 <a target="_blank" href="https://icons8.com/icon/118466/facebook-novo">Facebook Novo</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
             </div>
     </main>
+
+    
 </body>
 </html>
