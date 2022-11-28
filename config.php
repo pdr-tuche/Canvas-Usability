@@ -4,6 +4,5 @@
 	$USER = "root"; // nome do usuário do bando de dados
     $PASS = "";
 
-    $connection = new mysqli($HOST, $USER, $PASS, $BASE);
-	
-	?>
+	$pdo = new PDO("mysql:dbname=".$BASE.";host:".$HOST."", "".$USER."", $PASS);
+?>

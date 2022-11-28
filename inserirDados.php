@@ -1,12 +1,11 @@
 <?php
+    include("config.php");
+
     $nome = $_POST['nome'];
     $email = $_POST['email'];
-
-    include("config.php");
-    include("index.php");
         
     $sql = "INSERT INTO clientes (nome, email) VALUES ('{$nome}', '{$email}')";
-    $response = $connection->query($sql);
+    $response = $pdo->query($sql);
     
     if ($response == true){
         echo "<script>alert('Cadastro feito com sucesso');</script>";

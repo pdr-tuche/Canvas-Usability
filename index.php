@@ -1,3 +1,17 @@
+<?php
+require("config.php");
+
+// SELECIONANDO DADOS NO BANCO DE DADOS
+
+$sql = $pdo->query("SELECT * FROM clientes");
+
+// COLOCANDO DADOS NO ARRAY
+if ($sql->rowCount() > 0) {
+  $lista = $sql->fetchAll(PDO::FETCH_ASSOC);
+}
+
+?>
+
 <!doctype html>
 <html lang="pt-BR">
 <head>
@@ -89,7 +103,7 @@
             <div class="area-formulario">
                 <h2>Faça parte da nossa Newsletter</h2>
                 <div class="formulario">
-                    <form action="back.php" method="POST">
+                    <form action="inserirDados.php" method="POST">
                             <label for="nome">Nome:</label>
                             <input type="text" name="nome" />
                             <label for="email">E-mail:</label>
