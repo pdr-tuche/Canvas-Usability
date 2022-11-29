@@ -16,4 +16,5 @@
     }
 
     echo "<h1> .$nome. e .$email. </h1>";
+    var_dump($nome, $email);
 ?>

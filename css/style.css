@@ -1,0 +1,22 @@
+.icons{
+    width: 2rem;
+    height:2rem;
+}
+
+.bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.log{
+    width: 10rem;
+    height:10rem;
+    border-radius: 20%;
+}
+
+body{
+    background-color: #d2d2d2;
+}

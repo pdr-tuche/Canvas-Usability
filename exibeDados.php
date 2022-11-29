@@ -26,16 +26,16 @@ if ($sql->rowCount() > 0) {
 <body>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark ">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">CRUD</a>
+      <a class="navbar-brand" href="#">Exibe Dados</a>
     </div>
   </nav>
 
 
   
   <main class="container mt-5">
-  <a href="create.php" class="btn btn-info mb-3"> Adicionar </a>
+  <a href="create.php" class="btn btn-info mb-3 mt-3" > Adicionar </a>
     <div class="bg-light p-5 rounded">
-      <h1>Read - Lista de Usuários</h1>
+      <h1>Lista de Clientes</h1>
       
       <table class="table table-hover">
         <thead>
