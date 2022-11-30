@@ -43,10 +43,10 @@ O site referência: https://ucdc.therectangles.com
  
  ### Ferramentas utilizadas:
  - PHP 8
- - MySQL (Maria DB0)
+ - MySQL (Maria DB)
  - Bootstrap
  
  <div align="center">
  <h3>Video com as funcionalidades da pagina e persistencia com o banco de dados:</h3>
- 👉 <a href="https://youtu.be/ObIE9LkvKw0"><img src="https://img.shields.io/badge/-Youtube-%23FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a> 👈
+ 👉 <a href="https://youtu.be/ObIE9LkvKw0" target="_blank"><img src="https://img.shields.io/badge/-Youtube-%23FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a> 👈
 </div>
