@@ -1,6 +1,14 @@
 # Canvas-Usability
 📚 Projeto da disciplina Programação Web
 
+## Integrantes do projeto:
+
+- Pedro Neves RGM: 28843410
+- Jhennyfer Maria Lima Ferreira RGM: 30133289
+- Joao Aldrin RGM: 30445604
+- Daniel Fernandes RGM: 29535956
+- Thiago Vasconcelos RGM: 22993479
+
 ## Sobre o projeto:
 
 Trata-se de um site desenvolvido inicialmente utilizando as tecnologias PHP e Bootstrap, terá como propósito a divulgação do modelo Canvas de Usabilidade e será hospedado no domínio: www.ocanvasdeusabilidade.com.br
