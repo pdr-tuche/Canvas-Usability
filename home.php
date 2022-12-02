@@ -152,10 +152,6 @@ if ($sql->rowCount() > 0) {
                 </form>
             </div>
         </div>
-     
-        <button onClick="{location.href='login.php'}">Mostrar Dados</button>
-         <!-- passar o nome que ele quer excluir, para pesquisar por nome e achar o id ou excluir pelo nome msm. -->
-        
 
          <div class="card mt-5 text-center">
   <h5 class="card-header">
