@@ -42,6 +42,11 @@ O site referência: https://ucdc.therectangles.com
 -	Inserir formulário onde o usuário digitará o seu e-mail.
     -	Faça parte da nossa Newsletter
 
+## Tela de login
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/55400486/205325751-c42aa98f-33d1-4c40-9d02-0e3b298f670d.png"/>
+ </div>
 
 ## Página
 
